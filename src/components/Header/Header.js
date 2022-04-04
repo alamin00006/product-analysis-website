@@ -3,7 +3,7 @@ import Navber from '../Navber/Navber';
 
 const Header = () => {
     return (
-        <div>
+        <div className='mb-5'>
             <Navber></Navber>
         </div>
     );

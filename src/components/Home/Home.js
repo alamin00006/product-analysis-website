@@ -6,10 +6,9 @@ import './Home.css'
 
 const Home = () => {
 
-    // let newArry = [];
+  
     const [reviews, setReviews] = ReviewData();
-        // newArry = reviews.slice(0,2);
-        // setReviews(newArry);
+      
 
 
     return (
