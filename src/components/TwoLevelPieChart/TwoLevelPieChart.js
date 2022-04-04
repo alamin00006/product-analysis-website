@@ -1,10 +1,8 @@
-import { Tooltip } from 'bootstrap';
 import React from 'react';
-import { BarChart, Bar, Legend, YAxis, XAxis, CartesianGrid } from 'recharts';
-import TwoLevelPieChart from '../TwoLevelPieChart/TwoLevelPieChart';
 
-const Dashboard = () => {
+import { PieChart, Pie, ResponsiveContainer } from 'recharts';
 
+const TwoLevelPieChart = () => {
     const data = [
         {
             "month": "Mar",
@@ -43,22 +41,17 @@ const Dashboard = () => {
             "revenue": 61000
         }
     ]
+
+
+
     return (
-       <>
-            <BarChart width={730} height={250} data={data}>
-         <CartesianGrid strokeDasharray="3 3" />
-         <XAxis dataKey="month" />
-         <YAxis/>
-         <Legend />
-          <Bar dataKey="revenue" fill="#8884d8" />
-            <Bar dataKey="investment" fill="#82ca9d" />
-            
-            </BarChart>
-            <TwoLevelPieChart></TwoLevelPieChart>
-            </>    
-            
-       
+        <ResponsiveContainer width="100%" height="100%">
+        <PieChart width={400} height={400}>
+          <Pie data={data} dataKey="month" cx="50%" cy="50%" outerRadius={60} fill="#8884d8" />
+          <Pie data={data} dataKey="investment" cx="50%" cy="50%" innerRadius={70} outerRadius={90} fill="#82ca9d" label />
+        </PieChart>
+      </ResponsiveContainer>
     );
 };
 
-export default Dashboard;
+export default TwoLevelPieChart;
