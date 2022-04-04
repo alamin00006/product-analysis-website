@@ -3,12 +3,9 @@ import './Review.css'
 
 const Review = (props) => {
  
-    const {setReviews, review} = props;
+    const {review} = props;
  const {name, rattings, reviews} = review;
  console.log(review)
- 
-    // const newItem = [];
-
 
     return (
        
