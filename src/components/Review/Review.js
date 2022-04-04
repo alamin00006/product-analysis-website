@@ -5,16 +5,16 @@ const Review = (props) => {
  
     const {review} = props;
  const {name, rattings, reviews} = review;
- console.log(review)
+ 
 
     return (
        
-     <div>
+     <div className='review-info'>
        
-        <div className="card-body">
+        <div className="card-body card-container">
         <h5 className="card-title">{name}</h5>
-        <p className="card-text">{reviews}</p>
-        <p className="card-text">{rattings}</p>
+        <p className="card-text"> {reviews}</p>
+        <p className="card-text rattings">{rattings}</p>
   
         </div>
   </div>

@@ -15,8 +15,8 @@ const Home = () => {
             <div className='col-md-6 left-side'>
              <div className='left-side-container'>
             <h1 className='text-info'>This is Best Watch</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, quam ullam repellat voluptates eum id? Tenetur quisquam delectus, excepturi nisi sint cumque veniam deleniti similique nesciunt molestias laboriosam iste magnam?</p>
-            <button className='btn btn-info ps-4 text-white'>Read More</button>
+            <p className='review-text'>The best men's watches to kickstart any collection ; Seiko SNE329. Best Men's Field Watch ; Timex Ironman Classic 30. Best Men's Sports Watch.</p>
+            <button className='btn btn-info ps-5 pe-5 text-white fs--'>Read More</button>
         </div>
             </div>
         <div className='col-md-6 img'>
@@ -34,7 +34,7 @@ const Home = () => {
             </div>
             <div className='text-center'>
             <Link to ='/reviews'>
-            <button className='btn btn-primary'>See All Reviews</button>
+            <button className='btn btn-primary rounded'>See All Reviews</button>
             </Link>
             </div>
 

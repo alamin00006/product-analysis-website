@@ -5,7 +5,7 @@ import './Reviews.css';
 
 
 const Reviews = () => {
-    const [reviews, setReviews] = ReviewData();
+    const [reviews] = ReviewData();
 
     return (
         <div className='all-reviews'>
