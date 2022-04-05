@@ -1,3 +1,14 @@
 .review-info .rattings{
     color: red;
 }
+
+.card-container{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+img{
+    width: 100px;
+    margin-right: 5px;
+    border-radius: 10px;
+}
