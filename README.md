@@ -1,5 +1,10 @@
 # Best Watch Reviews
-This this my live site link[My Live Site](https://best-watch-reviews.netlify.app/).
+This this my live site link[ My Live Site](https://best-watch-reviews.netlify.app/).
+
+* Into Dashboard, 2 chart added.
+* Into Home, 1 image, and image description, 3 reviews show.
+* Into Reviews,  7 reviews show.
+* Into Blogs, 2 Question ans Added.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
